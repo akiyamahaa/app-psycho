@@ -19,9 +19,9 @@ const Problem = (props: Props) => {
         </Text>
       </Box>
       <VStack p={4} space={4}>
-        {Object.keys(posts[type]).map((id) => (
-          <Box key={id}>
-            <CardItem data={posts[type][id]} type={type} />
+        {posts[type].map((cont,idx) => (
+          <Box key={cont.id}>
+            <CardItem data={cont} idx={idx} type={type} />
           </Box>
         ))}
       </VStack>

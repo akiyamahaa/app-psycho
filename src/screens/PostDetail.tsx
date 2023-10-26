@@ -10,9 +10,9 @@ type Props = {} & NativeStackScreenProps<RootStackParams, "PostDetail">;
 
 const PostDetail = (props: Props) => {
   const { navigation, route } = props;
-  const { id, type } = route.params;
+  const { idx, type } = route.params;
 
-  const data = posts[type][id];
+  const data = posts[type][idx];
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -39,13 +39,30 @@ const PostDetail = (props: Props) => {
             </Text>
           </Box>
           {/* Content */}
-          <VStack space={4}>
+          <VStack space={2}>
             {data.content.map((cont, idx) => (
-              <VStack key={`${cont}-${idx}`}>
-                <Text fontSize={18} fontWeight={"bold"}>
-                  {cont.title}
-                </Text>
-                <Image source={{ uri: cont.image }} />
+              <VStack key={`${cont}-${idx}`} space={2}>
+                {cont.title && (
+                  <Text fontSize={18} fontWeight={"bold"} color={"primary.600"}>
+                    {cont.title}
+                  </Text>
+                )}
+                {cont.image && (
+                  <VStack width={"100%"} alignItems={"center"}>
+                    <Image
+                      source={{ uri: cont.image }}
+                      style={{ width: "70%", height: 150 }}
+                    />
+                    <Box
+                      p={1}
+                      bgColor={"muted.100"}
+                      width={"70%"}
+                      alignItems={"center"}
+                    >
+                      <Text color={"primary.600"}>{cont.caption}</Text>
+                    </Box>
+                  </VStack>
+                )}
                 <Text>{cont.body}</Text>
               </VStack>
             ))}

@@ -7,7 +7,7 @@ export type RootStackParams = {
   Exercises: undefined;
   Songs: undefined;
   PostDetail: {
-    id: string;
+    idx: number;
     type: string;
   };
   MusicVideo: {

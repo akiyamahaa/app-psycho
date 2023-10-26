@@ -3,8 +3,6 @@ import React from "react";
 import { Box, HStack, Text, VStack } from "native-base";
 import { PlayCricle } from "iconsax-react-native";
 import { ISound } from "../type/common";
-import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { RootStackParams } from "../navigations/config";
 import { useNavigation } from "@react-navigation/native";
 
 type Props = {
@@ -22,7 +20,7 @@ const CardSound = (props: Props) => {
 
   return (
     <TouchableOpacity onPress={onPlayVideo}>
-      <Box borderTopWidth={0.5} borderColor={"primary.600"} py={4}>
+      <Box borderBottomWidth={0.5} borderColor={"primary.600"} py={4}>
         <HStack alignItems={"center"} justifyContent={"space-between"}>
           <VStack>
             <Text fontSize={16} fontWeight={700}>

@@ -8,15 +8,16 @@ import { useNavigation } from "@react-navigation/native";
 type Props = {
   data: IContent;
   type: string;
+  idx: number;
 };
 
 const CardItem = (props: Props) => {
   const navigation = useNavigation<any>();
-  const { data, type } = props;
+  const { data, type, idx } = props;
 
   const handleDetail = () => {
     navigation.navigate("PostDetail", {
-      id: data.id,
+      idx: idx,
       type: type,
     });
   };

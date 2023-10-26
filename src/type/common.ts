@@ -1,7 +1,5 @@
 export interface IData {
-  [key: string]: {
-    [postId: string]: IContent;
-  };
+  [key: string]: IContent[];
 }
 
 export interface ISound {
@@ -18,7 +16,8 @@ export interface IContent {
   subTitle: string;
   content: {
     title: string;
-    image: string;
+    image?: string;
+    caption?:string;
     body: string;
   }[];
 }

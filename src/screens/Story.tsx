@@ -2,11 +2,14 @@ import { StyleSheet } from "react-native";
 import React from "react";
 import { Text, Box, VStack } from "native-base";
 import Header from "../components/Header";
+import { posts } from "../data/data";
+import CardItem from "../components/CardItem";
 
 type Props = {};
 
 const Story = (props: Props) => {
   const handleSearch = (textSearch: string) => {};
+  const type = "story";
 
   return (
     <Box flex={1} bgColor={"#fff"}>
@@ -16,7 +19,13 @@ const Story = (props: Props) => {
           Các câu chuyện tích cực
         </Text>
       </Box>
-      <VStack p={4}>{/* <CardItem data={}/> */}</VStack>
+      <VStack p={4} space={4}>
+        {posts[type].map((cont, idx) => (
+          <Box key={cont.id}>
+            <CardItem data={cont} idx={idx} type={type} />
+          </Box>
+        ))}
+      </VStack>
     </Box>
   );
 };
