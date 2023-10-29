@@ -6,7 +6,7 @@ https://drive.google.com/file/d/16B-Gs7Hu8jc--S4Cy31DQhJKMgPeQLRB/view?usp=drive
 
 ## Table of Contents
 
-- [JoyfulMind](#Joyful Mind)
+- [Joyful Mind App](#joyful-mind-app)
   - [Demo App](#demo-app)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
