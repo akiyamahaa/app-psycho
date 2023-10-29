@@ -58,6 +58,48 @@ export const posts: IData = {
       subTitle:
         "Áp lực từ gia đình là một vấn đề tâm lý quan trọng đối với học sinh cấp 3. Trong giai đoạn quan trọng này của cuộc đời, học sinh thường phải đối mặt với sự kỳ vọng và áp lực từ phía người thân. Bài viết này sẽ tìm hiểu về nguồn gốc của áp lực này, cách nó ảnh hưởng đến học sinh và gợi ý cách giúp họ đối phó với áp lực từ gia đình.",
     },
+    {
+      id: "3",
+      title: "Áp lực lựa chọn ngành",
+      subTitle: "Áp lực chọn trường theo đam mê hay theo gia đình?",
+      image:
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAABX1BMVEWj0cLy8dH43Lf///8AAABgOhcrKyv76cgaGhpNTk6l1MWBrJ6n18j28tKdz8GFqp8TFBNnZ2cfFxrl5uXzcVf599b93bZFRkj/785RUVTk5udCQ0av1cRQUFSrrayZn5nk6s5aWlvK38nZ5syUg2376tDx4sjB3MhcLQALAABrV0b2i3mZwrXOzbTFxK3n5shTJwDp2rnk7uf2k4Brfnhra2fY17uwr52nppS9vKc6O0Du2rmzoorUxKfyZEePu61ZYl98mI95i4R8fHJub2iHh30uMDiamYtoUDjM1r5DJRKOkpB7aVfNvaHEzMfT2L2+29BATEhndXCImYlWGQCAjHt4eGZiQSSmknlNHgB0VjqCaE2Od15eSjFyaVWLopJKMSM7FgAxBQBUMBSwwKxEHwAkAAAnAAA1DgD4v6T4uJ/W6OH89OT5xbf0fGX2o4/62M7yXD1YbWczOTdGVVBkdwnFAAASbUlEQVR4nO1dC3vaRhYVGBujSgI3loVW0Fh2asABZFLztAnGmGCnfiVZJ67jNm12t7tNsrvdpP//2zszkpB4iJGE7SbofC0fBKy5c3TuY+5IwDABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABXIBlOY5j79qKPxM4ptXe3t6P5wNadLDMfkyREJS9NhOwAuBakhQzIMXi3F0bdPfg4krMCmV/5klh87pIkO/8iUlJpRhBEG5nLO45YWSvxeTjzzErSny6MQXNBabk7xjrPB9aXV/LYGpumJs89hzpOco4LNfGr9TpCAUbn8qsra+GeH7d3zyE1RCARwBqMjerGsLJns4Ct42UorR8CoUoI4PJwNMIhVZ9chKyQGdGF40/U0eB20MsGK/YFqJI2vfMiVUahAwDPm23HmokNT6Oz3JMPs9aajPhubSXN19i2Ujbrp1HsJMxYgLeTUZIjTikSQyM50M0XL5dXlKXlvbz/VlzTJ8htiW55oSwsb4+pAy77b6CrJAZe2ALNV5EAwUr8IGhtkdOm2QhqU3jO8J4PxlldMaP8whrEw5vEw0KwiwdM6yw1Ic6Yt4cs02S8YQYi4Zj7SF0srlrvjhZpxrEyg1lEC4jMsr7+4SU/BAj7Rip2vbGuo4radjN9JV4hMkDjCSGUDPebbk2oiKOegKYFbtQOGbfWPaMlUnKCxkmfCUeTyOa1KyNPS4mgjOfWgMp22cEytgxMllzyYaILBIB+I94P5ygtKOhA4peyOEzYw7LxvsOwz23c8LmYyYje/lxnjMp9tvtEMWuJFaKte5Bp4D+0FfigaHFXnopVKkWMDXumBk7NItdhzzn7L4DlJiMxMe3lcbVCLz95AEbcD4LtW6jJ/YaUgP+05xOFgVI2pHlWjldDqVVTawX0SHRQFScjDuuhRNdMubkuT0KRpixTl04KOjviMjKYq8qhg4aDSWmakVFqVdiSk30l3hw2hGLsqqWQ1paDolLShGUU6tq+Izgc4IeeG00S+NGZltQm5TxlNmyzXVIQY+Wxs6txzHBn68qDQ2fMrF20BFFtdERO4rS60lSuaIohVBM6SFOfKwChVU8YVUFiRTSSyJIpgLjqUpF7KnVQrUCca5b4PkCSHP4xDmkPHZfVXEXYEgmuCqR9ic1Y7FlA8MhLjRNq3dUdCa7iorCiBpqSD1R7EmNCohF0n3HRzLGZwNRkq6IVbkjarKM/kGWNbGTrvdgsGIa3hKLVa1bGebE4Wywgt5sRU5kaRwR1xlflJiW2QonTEelVi8oT8DQBpq3WJMUiIVSDORRF0MFRamosVhDrYiOCqYAGvhAVQ/knliTu2JBVsUQX5FBI2W50JWrYjXdEetltXMgwxkKkZxnWjo+FZvUDMgEspBE10giBTZOryJfrNWwn1QaSlGEuFHhQ3xdiZUhpysVReqKwFBDO5DKmi5nH6vAFAoeS+lCQUprhbRaPQBeYDQZNKjKWjldFHtyr56Wl2S1CzqtilqtyPNmFTA5uuNEbO0vsnlJUp5TLPtIMi5Ue51OVew0wE860l5IgRCqNZAw+EojpsSWYkqhKykd9L/YbUjGKfORjNHAIEuer/fqkJPTkHqQKuWuVgUvksFtQCtLck2syGkN9AQS7YgVqALqtFUAch1bqcoycapuPU7GlSeKAum1WpMk5CeSqIImQjEJxVFNkSDFKEo1VG4ojcYB5Ipa0ZSw92RsrgBRihG1YgE9h+hVwxFXlgshVa6raY0XQUxLqtwrpnuVtCynwaPoBIo4sSx2WI5hKfe6sGmS1NU60kER/ARUocDzMjgR5kSMIZ+RGvBQrFVRGOH7jk3h1mMwuALUq+lKvSLW0wcgHFmV1RDSSVFOF+RyWe3K9Y7cDWkdjS6QsSictCwF254UG905GLINnx6ki56yBClFUfbAT2oQPLpSA8lULD85EHlcUPFiuTtQLHhOxiMSHuGGcC7WO+WuhlKPKsugjy6EHLkA6VrUChpdwuP2bZwwuANL1zFBtkEMgc83aiHTT1QFvIkQUNH6hfcgJ96T8aRVsSiS0rmzVK6JdaiGDsCPyiCbegPKR6rCKF+21vVtibpVT8pJyLXSUlXEfsLHEBn1Xq0wXEAOV96ekzHd8gZVtCJf6BVFyHshSEMHS2kod+niGLqIwCCF23fBCYr/kHChfBTBTxplka8WK/g80VjtORmPbcaOYQZK3gKE97KsljXafMfmt8uGUti4i640Mo6vPHlSxAkI+4kLcz0n44z7ho0RakLUp8Lae+S2FSizKGWNbNPqw+UzjZW852ScGr8dQAOaIdg86lSbRRrXascpr7AQjHPgiozQ5B7gxIE99zxpd9sE1b4uZmm3uMgOJT0b096wM6ghLFNGXroSgG2r6tJgi5rKJtr2ue+NKCcjbKKZbApl34YV8tTasJlDsc0yrQ3LibYQavAq2Ikb+o0lbxvCDttxuptr2q1cDWEiVQGc9TcURnSUfF7lMdmEMVvZJISeIQNv2gQ7MhoMeSQ4BGGfG9UU4EeRoUcN4Qjs03y0ot2DOHM/iup716shS+r2Ktl83lUy7m/LWkOosI7e8rUH6hakUTuw4LYHYc+rLPaQ7notsMEhhK5N4eIbdxBIFB3zJqbG1d49i5c9JP+wL/5KpRQh45RdSQS+TU6YiVF0kjX994GNfPzFxcXFizf6BTrZQ87lMYZBIvCEA0wTAh7RTxQVzjLkDHPsm5evsgbmf3rDcNzmVotFCtD8XCdCup+3J5RMyq8yoxupMy3FcMwFEDJvQTb7knmZfcFx69paJnrkeQji3anbyjzCzspOyFcEY6NRLRoFey/shOisHGYv8i83m0n4kM8eIVh6K0oRKivhFd7XBmMUoGnR5MkPQ4wQHF6JSfgAwKtS8HKIB0srt0CKcLQSDoejPq4KEzaiGKXLcZTMz2+9bpIPRT3WGLj0j4KlK979jx6IEsyJx8pZ0HRKTprNqzGUZC+bzeYO+ZzHOJnSOQmHvZnpAkIJcYJ9xxsnwhmZajKZjDpwUsIf8EMKMhFRslK6YaEIGSyTsOe0Y1DSfPD61dbWWN/Jbs1fXV/q7uOJfJx4sK0rvi79pEA4bHDiKe0IGV0jydLr4ZRjDym7plQ8jYQSj26thz93MVCFyCTqNe2k0BTXa68vm0nxlSMl2RNx4+T6QQYFZM3DUGgVqAeUm809qRVTJp4WnSjlJDMXW+Abr147y2T+6nV2K7vVwlnKg/rJ0p2Yu3KDjRRhJ2zIxFMqFtZQJPkxOz/BbSyApY837yF9OCKU8M1VbqQ0gRG89tEEFEs2Dw9/urDIoeRIUDaOifQgSrL+IGfx5ooU3XNWjjyuAHGAPeIAFyYPPzSTTUeh/MQJHsMstlI/jTflPaQ0AXhdAeJqDT8zZ7x1mYwmN67GJ+X5LEnf7hdz+ipQjyg35D16aRIu4e1rL6lYTyFs3JBJ9jVOtsndrbEOlH3DpjylHrwpxmdKOik3skIWjKOfrXlbAWLXQYHBdB2dEiCldD1WKpsenQcnY37tzDiTNyEUIw+vZNa9pWLsA8ivuZ90Sq6TOggro7UC6dj0OVfDkVNnqNtNRGGd0R9Cz8PhFV2U5F9d7CmZU+MOyWyvdg0QrVyOrOKym9yRi4DStwgn41VG58SWjyfMOe6IljGCkYdNrCDgsWjznOkC3CviOD8/0HH8FJNy+cvTX/719penT5/+zcLJ4V/fZOizsXC0Y7POYjCxE02o5Txp5uth5HLGY+7+I8B5f+03CrRrLMTJhsnJq9LxCXiNiFxH3DxBxdzTKDhR8/LVD1tPEWfzr9Hnsi/yh3+nbi5NtPMcTeh+zjrJITALQ1j8/vtF/XHxmznAuTCkEttYtOHLwkn2H5fiMRBR2txFwQTTc3KMnu42k6WTH6/m317DEvAK5R2ORZyc0XFSGm8nUorwHk3om0XrJIcwzMniffRHi9/DY0LnJFVyoIQ6pFt0kn2T2v3x6Uk0+eDtr8hrjh9cHz/YBU6SJ7/+Woryx5ubJ5ggWAbEWSbjghMnS1dKqXPCSQIm9v0imt79YVKGOUEfP8VsnOqcbAy65hD91JzgeMK+zHMsdpjkpcFJaaf5I+Lk8u0/m1D/7+IuQfIa1Wx6/UvHiZOgUZjZ0Dk5NR8TFJwsLJyeKvoj4eRbp2EgyFI2wvAKFz9jEUFJ5DvRzUvdd6LEd0r/+hmebjb1Ug6VJzBR6hgrMDvOxn6r+450egpzVPAjDSeJhPFIxQlt6se5OGW+SB7vQoAVRRxjEQcnUK7gdlOUvE6iOi77grX/oTNSjjKxcGKZJBUnfVByQtezwafbqNHhRfPtpo6fD5GnlP6JSpUTwO5bXN1u4eUOQ/Y+6GivUHPigKlwQhlkU9bmagoSb9MAWfWUHlxfXx8jlNDLEySTC47IhG69I1QmmHp7nLgoUMyFi7GlYSCp92n1Wh9eQCI+PGT1Fi5lOHEoT26VE/pCFjmPecZTNkbCv/0WTtpIav6QbW3mWYF8jm4Eo4y9c07CdKUDQtRCilUoyd8efvfw4W9WUpJXUJkAJVgl1Fukwtk0dJJwQuT+vXv3/rIxYRzqzp4+QWMXq09A+OF3gIdhCyXVV+jKHNx41Es9mgGcyxPAxl9gRvcjjrNmIo6g4oS+N2HseK2dp9DFTCYDIBPQycN3faEUXrKCcJ7StUS7zp8cY3VOHDENTlzsn+gOk5ybe/SeEWwhxYb1lpCCpckH8op6i2ByLr4lTlbc7LMRUuYwYMGtjaYkw7wnH8GkuGhfpW5NJ87ku+vqIVI+zBl4vzqCkY335vtzblSCD++0ML5FndDnHWz16rdzVnwYYMT+7py7ywqEswnOc1vxxOU+gTA3iA/fmoR8GHzv3B3hE8qTKfqOY7PA5QUewvshThzhjm9n11lZmRIn99C166WdkU1OPI7brZNHo6b+7/8MSYToxN2xMyMtxHbvlNB9E/emw8m5oDfDU5kMKs93wjt9iZYqrq8jEs6Hp/7fx8uPfx/+50cTLxwePHaq0pcKMhPsPTrKpPSGvnA+LU6sQ5J9UbOd7+n2GCE1OPff/7e8vPx4iJL3Xg5uMU3fH7UchYoT59p+6Dtt17zuiw5g0H8QJe+G/MbvOCPvlWC4/Qm1PeeIwZsByGWnPr+AFR9oINK+A04GA4pbvxkxymhzWedJux2EED+N+y7tQeX3x8v/HQgl0xhkWrJ2HGR6t7XZSQFO7K7jJZQMw/eNATTwe0OGBayVgu+Wl/9j42RKF9FM0d5xIDepTIl3KwWPlwdy8XS+m1tAvnPDt2umVld5fkpatNb474ATu/NMZQjwdZ5fXb3h+0ch5/v9LnTzUBYGljGsnExJi6nU7d1gPAUI/RrldyQTm/NMI+t8hrBw8pDo5F3AiVm2fXi8POg800nFnx+GOPnfh5nnpF+0fVgejCcuWwRfDCyrY0yKdb1zu1+/8CfCnJWUh9ZMHHCCSbFRMq3y5LPDcLM64EQY2ZjFmNHyJOBkFBx2NWa1PAk4GYURexoE97x8Y9sXAbb96ZuhkPLo9P7eYmTKP/f2+YBtRSKRT91vTu9hnJ7e76qLaIMlEZlZnTBMbnExYdtuSiQWERJ3bdjdgVsgFAwisfBn/PnI2wH3bAwnz2aYk4+5kZzkPs4wJ9sDnOiyybn/UcAvBmzb4CQSyeVykYVPhJQc1de5f5lg4xHdV/Lxdrvd4nSOZrc8AeRzhq/gm1hNTvz+8OrnDNYePwxfys1wycZwJICYnOi+9PUMy4Th9kZxkvg0u2nHTMa5fTsnf8wyJ3oAyem/LwOLwlkv2UxhGPUIm49YZTOjyNs4GXw5o/h6BCczXbIZybgvDBxeIpTfXP6FgvsjYRMGSc13atKdgyRjkxN21jtKCCQZD3Aywx0lBJKMTU5wMzIx0+UJo2eaPico5M5yR4nAFmNxg3bWyxOiDLNfgjmZ8fJET8Z9TmyvZhW4tWb2kEhqnnFKWLydYSoDp+Yc3a+wfqng8s9yln4sSzbBIh+ZGWUFcbAfSZAqrfUVgd6fTcQ5Tz8G91mDZfKtVnshom91LeiUfGXu9zyLt1p5jz8J9zkCCEHz/xgxdosTnwY5WUzkttHrmWngY0aAEnP6ZP7kH3MGUZH2V7PDimBMH93Lm8vlPn2Mf2Wi/XEB/gnf26wTddfm3g70gLr9x7Nnf3zcthCi07L9Eb2jU9K6a2tvB2x+kIbxmJ2WG0o7k/mYqcSDgOqPPCTkkWSgPMzMXoVCYH4PuGB+VYb9q8EDBAgQIECAAAECBAgQIMD08H/+ktP7znOgFgAAAABJRU5ErkJggg==",
+      content: [
+        {
+          title: "Nguyên nhân gây áp lực lựa chọn ngành nghề",
+          body: `Thiếu hiểu biết về bản thân, chưa xác định được sở thích, đam mê của bản thân\nÁp lực từ gia đình, mong muốn con theo học ngành "hot" dễ xin việc\nMôi trường xã hội coi trọng một số ngành nghề nhất định\nLo ngại không đỗ vào ngành mong muốn do điểm số không đủ`,
+        },
+        {
+          title: "Ảnh hưởng của áp lực đến tâm lý học sinh",
+          body: `Lo lắng, hoang mang, không biết nên chọn ngành gì\nMất tập trung, suy giảm chất lượng học tập\nCăng thẳng kéo dài, có thể dẫn đến trầm cảm, rối loạn lo âu\nSuy giảm động lực và niềm vui học tập`,
+        },
+        {
+          title: "Cách giúp học sinh giảm áp lực lựa chọn ngành",
+          body: `Tự tìm hiểu bản thân để xác định sở thích, đam mê\nTư vấn với thầy cô, bạn bè, gia đình để có cái nhìn khách quan\nTìm hiểu kỹ về các ngành nghề, trường học phù hợp\nLựa chọn ngành phù hợp với khả năng và đam mê của bản thân\nTrao đổi với phụ huynh để được động viên, ủng hộ`,
+        },
+      ],
+    },
+    {
+      id: "4",
+      title: "So sánh bản thân với người khác",
+      subTitle: "",
+      image:
+        "https://vinmec-prod.s3.amazonaws.com/images/20211026_000203_669332_so-sanh-ban-than-vo.max-1800x1800.jpg",
+      content: [
+        {
+          title: "Nguyên nhân dẫn đến tâm lý so sánh",
+          body: `Áp lực phải bằng/hơn bạn bè cùng lớp, cùng trường\nÁp lực phải bằng/hơn anh/chị/em họ trong gia đình\nTự ti về năng lực, ngoại hình, gia cảnh của bản thân\nẢnh hưởng từ môi trường xã hội coi trọng thành tích, thành tựu`,
+        },
+        {
+          title: "Ảnh hưởng tiêu cực của tâm lý so sánh",
+          body: `Cảm giác tự ti, thiếu tự tin vào bản thân\nGhen tị với bạn bè, người thân khi họ giỏi giang hơn\nTự trách bản thân không bằng người khác\nMất động lực phấn đấu vươn lên\nCăng thẳng, lo âu kéo dài`,
+        },
+        {
+          title: "Cách khắc phục tâm lý so sánh tiêu cực",
+          body: `Chấp nhận bản thân, đừng so sánh để tự trách mình\nTập trung vào việc phát huy điểm mạnh của bản thân\nĐặt mục tiêu phù hợp với khả năng, không đòi hỏi quá cao\nTích cực rèn luyện để hoàn thiện bản thân mỗi ngày\nTranh thủ sự động viên, khích lệ từ gia đình, thầy cô`,
+        },
+      ],
+    },
   ],
   story: [
     {
@@ -151,6 +193,78 @@ export const posts: IData = {
         },
       ],
       subTitle: "",
+    },
+    {
+      id: "3",
+      title: "Tập yoga",
+      image: "https://tiki.vn/blog/wp-content/uploads/2023/07/thumb-3.png",
+      subTitle: "",
+      content: [
+        {
+          title: "Yoga",
+          body: "Tập yoga là một hoạt động có thể làm dịu các triệu chứng trầm cảm. Việc tập trung vào thể chất lẫn tinh thần, hình thức này kết hợp các tư thế - asana, kỹ thuật thở -pranayama và thiền -dyana, giúp cơ thể người tập trở nên khỏe mạnh và tâm hồn cảm thấy bình an.",
+        },
+        {
+          title:
+            "Một số động tư thế phù hợp với những người mắc bệnh trầm cảm:",
+          body: "",
+          image:
+            "https://tapchitamlyhoc.com/wp-content/uploads/2021/07/bai-tap-the-duc-tot-cho-nguoi-bi-tram-cam-1-1.jpg",
+          caption: "Tư thế chó úp mặt",
+        },
+        {
+          title: "",
+          body: "",
+          image:
+            "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/loi_ich_tuyet_voi_cua_tu_the_em_be_trong_yoga3_50bd207205.jpg",
+          caption: "Tư thế em bé",
+        },
+        {
+          title: "",
+          body: "",
+          image:
+            "https://yogaclubvietnam.com/wp-content/uploads/2020/12/tu-the-dung-bang-vai-yogalovers-1.jpg",
+          caption: "Tư thế đứng bằng vai",
+        },
+      ],
+    },
+    {
+      id: "4",
+      title: "Tiếp xúc với ánh sáng mặt trời",
+      image:
+        "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRxmgKGUJPFf00TQ0nqmzKJOHzz2OY6rXELGv8OyzuD4lLI2OtSEIPtBUEQ0iQMjhJUi18dziYOH14w01k7a5M",
+      subTitle: "",
+      content: [
+        {
+          title: "",
+          body: `Ánh sáng mặt trời đã được chứng minh là tạo điều kiện thuận lợi cho việc tăng serotonin, một chất hóa học trong não, hỗ trợ tâm trạng. Sự sụt giảm serotonin trong những tháng tối hơn (mùa đông), lạnh hơn có liên quan đến một số trường hợp rối loạn cảm xúc theo mùa.
+          Vậy nên những hoạt động đơn giản như đi picnic, chạy bộ mỗi buổi sáng cũng sẽ giúp tâm trạng của bạn tốt hơn
+          `,
+        },
+      ],
+    },
+    {
+      id: "5",
+      title: "Viết nhật ký",
+      image:
+        "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/https://cms-prod.s3-sgn09.fptcloud.com/cach_vuot_qua_tram_cam_3_a19198bbc7.jpeg",
+      subTitle: "",
+      content: [
+        {
+          title: "",
+          body: `Thói quen viết nhật ký có thể giúp kiểm soát và cải thiện tâm trạng rất tốt. Viết nhật ký giúp người trầm cảm có thể giải tỏa những cảm xúc, suy nghĩ tiêu cực. Từ đó, tạo chỗ trống cho những dòng suy nghĩ tích cực xuất hiện. Việc thể hiện ra được những lo lắng của bản thân cũng giúp người bệnh bình tĩnh nhìn nhận lại vấn đề, từ đó điều chỉnh lại cảm xúc một cách tốt hơn.`,
+        },
+        {
+          title: "Mẹo viết nhật ký mang lại hiệu quả tốt nhất",
+          body: `-Thả cho cảm xúc được tự do bay lượn và ghi chép chi tiết nhất có thể.
+          -Cố gắng dành 20 phút mỗi ngày để viết nhật ký.
+          -Nên viết nhật ký vào thời điểm yên tĩnh, tinh thần thả lỏng, tốt nhất là trước khi đi ngủ.
+          -Ghi chép lại cả những điều tiêu cực và tích cực.
+          -Có thể xé bỏ những trang viết về câu chuyện quá tiêu cực của bản thân để giải tỏa nỗi buồn. 
+          -Đặt nhật ký ở nơi dễ tìm và bí mật nhất. 
+          `,
+        },
+      ],
     },
   ],
 };
